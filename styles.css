@@ -1,0 +1,53 @@
+.text-box h3:first-child {
+  color: pink; 
+}
+
+.text-box p:nth-of-type(2) {
+  color: grey; 
+}
+
+.text-box div p {
+  color: red; 
+}
+
+.text-box p:nth-of-type(3) {
+  color: green; 
+}
+
+.text-box .yellow {
+  color: yellow; 
+}
+
+.lesson-container {
+  display: flex;
+  justify-content: space-around;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+.day-1:active {
+  background-color: white;
+  color: red;
+}
+.day-2:hover {
+  background-color: white;
+  color: orange;
+}
+.day-3:checked {
+  background-color: white;
+  color: yellow;
+}
+.day-4:focus {
+  background-color: white;
+  color: lavender;
+}
+.day-5:first-child {
+  background-color: white;
+  color: aqua;
+}
